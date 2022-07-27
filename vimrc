@@ -44,8 +44,8 @@ set tm=500
 
 
 " show location
-set cursorcolumn
-set cursorline
+"set cursorcolumn
+"set cursorline
 
 
 " movement
@@ -54,7 +54,7 @@ set scrolloff=7                 " keep 3 lines when scrolling
 
 " show
 set ruler                       " show the current row and column
-set number                      " show line numbers
+"set number                      " show line numbers
 set nowrap
 set showcmd                     " display incomplete commands
 set showmode                    " display current modes
@@ -107,7 +107,7 @@ set formatoptions+=B
 
 " select & complete
 set selection=inclusive
-set selectmode=mouse,key
+set selectmode=key
 
 set completeopt=longest,menu
 set wildmenu                           " show a navigable menu for tab completion"
@@ -126,6 +126,7 @@ endif
 " NOT SUPPORT
 " Enable basic mouse behavior such as resizing buffers.
 " set mouse=a
+set mouse-=a
 
 
 " ============================ theme and status line ============================
