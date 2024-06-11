@@ -16,6 +16,7 @@ let g:mapleader = ','
 
 " syntax
 syntax on
+set mouse-=a
 
 " history : how many lines of history VIM has to remember
 set history=2000
@@ -126,14 +127,13 @@ endif
 " NOT SUPPORT
 " Enable basic mouse behavior such as resizing buffers.
 " set mouse=a
-set mouse-=a
 
 
 " ============================ theme and status line ============================
 
 " theme
 set background=dark
-colorscheme desert
+"colorscheme desert
 
 " set mark column color
 hi! link SignColumn   LineNr
